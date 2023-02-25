@@ -165,3 +165,72 @@ header img {
   margin-right: 0px;
 }
 /* section-partners end */
+
+/* section-team start */
+.section-team {
+  margin-top: 80px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.section-team h2 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.section-team p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--pinkdark);
+  margin-top: 24px;
+}
+
+.team-players {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1440px;
+  margin-top: 80px;
+  padding: 0px 70px;
+}
+
+.team-players .player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.player h3 {
+  margin-top: 12px;
+  width: 301px;
+  height: 32px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.player p {
+  margin-top: 12px;
+  width: 301px;
+  height: 20px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--pinkdark);
+}
+/* section-team end */
